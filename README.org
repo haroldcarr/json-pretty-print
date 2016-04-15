@@ -1,1 +1,3 @@
-Execution wrapper around Text.JSON.Pretty to pretty print JSON in a more compact but human readable form.
+Execution wrapper around
+[[https://hackage.haskell.org/package/json-0.9.1/docs/Text-JSON.html][Text.JSON.Pretty]
+to pretty-print JSON in a compact, human readable form.
