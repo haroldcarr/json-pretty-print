@@ -1,15 +1,4 @@
 #!/bin/bash
 
-# http://stackoverflow.com/a/12197518/814846
-pushd . > /dev/null
-SCRIPT_PATH="${BASH_SOURCE[0]}";
-while([ -h "${SCRIPT_PATH}" ]); do
-    cd "`dirname "${SCRIPT_PATH}"`"
-    SCRIPT_PATH="$(readlink "`basename "${SCRIPT_PATH}"`")";
-done
-cd "`dirname "${SCRIPT_PATH}"`" > /dev/null
-SCRIPT_PATH="`pwd`";
-
-stack exec jpp -- $1
-
-popd  > /dev/null
+EXEC_LOCATION=`hcLocation "esync"`/openhc/json-pretty-print/.stack-work/install/x86_64-osx/lts-5.12/7.10.3/bin
+${EXEC_LOCATION}/jpp $1
