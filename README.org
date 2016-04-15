@@ -1,3 +1,17 @@
 Execution wrapper around
 [[https://hackage.haskell.org/package/json-0.9.1/docs/Text-JSON.html][Text.JSON.Pretty]]
 to pretty-print JSON in a compact, human readable form.
+
+* Build
+
+- [[http://docs.haskellstack.org/en/stable/README/#how-to-install][Install Haskell Stack]]
+
+#+BEGIN_EXAMPLE
+stack build
+#+END_EXAMPLE
+
+* Usage
+
+#+BEGIN_EXAMPLE
+jpp <filename>
+#+END_EXAMPLE
