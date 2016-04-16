@@ -42,7 +42,7 @@ jpp <filename>
 #+END_EXAMPLE
 
 
-** Typical JSON pretty-printing
+** versus results from typical JSON pretty-printers
 
 #+BEGIN_EXAMPLE
 {
