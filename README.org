@@ -12,7 +12,7 @@ stack install
 
 * Usage
 
-assumes =~.local/bin= on =PATH=
+assumes =~/.local/bin= on =PATH=
 
 #+BEGIN_EXAMPLE
 jpp <filename>
