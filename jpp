@@ -1,4 +1,0 @@
-#!/bin/bash
-
-EXEC_LOCATION=`hcLocation "esync"`/openhc/json-pretty-print/.stack-work/install/x86_64-osx/lts-5.12/7.10.3/bin
-${EXEC_LOCATION}/jpp $1
