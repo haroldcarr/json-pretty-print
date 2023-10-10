@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:json-pp"
+
+    - path: "app/Main.hs"
+      component: "json-pp:exe:jpp"

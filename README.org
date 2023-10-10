@@ -4,10 +4,9 @@ to pretty-print JSON in a compact, human readable form.
 
 * Build
 
-- [[http://docs.haskellstack.org/en/stable/README/#how-to-install][Install Haskell Stack]]
-
 #+BEGIN_EXAMPLE
-stack install
+cabal build
+cabal install
 #+END_EXAMPLE
 
 * Usage
@@ -15,7 +14,7 @@ stack install
 assumes =~/.local/bin= on =PATH=
 
 #+BEGIN_EXAMPLE
-jpp <filename>
+~/.cabal/bin/jpp <filename>
 #+END_EXAMPLE
 
 * Example
